@@ -9,9 +9,15 @@ var index=0,
 
 function FindNana(){
 	var num=prompt("How many friends do you want?(Please write down a number between 1~20)");
+	while (!(num>=1 && num<=20)) {
+		num=prompt("Please write down a number between 1~20...");
+		if (num==null) {
+			break;	
+		}
+	}
     nanaIndex=Math.floor(Math.random()*num);
 	for(var i=0;i<len;i++){
-	    // 为每张图片添加一个id索引
+		// 为每张图片添加一个id索引
 		pics[i].id=i;
 		if(i<num){
 			pics[i].style.display="block";
