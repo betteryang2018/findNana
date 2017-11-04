@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+.wrapBox{
+	width:1000px;
+	margin:20px auto;
+}
+
+body{
+	font-family:"microsoft yahei";
+	text-align:center;
+}
+
+h5{
+	font-size:36px;
+	color:pink;
+	margin-bottom:20px;
+}
+
+h4{
+	color:#a9e;
+	font-size:28px;
+	margin-bottom:20px;
+}
+
+.content{
+	border-radius:15px;
+	background-color:#eee;
+	width:1000px;
+	overflow:hidden;
+}
+
+.imgBox{
+	float:left;
+	padding:25px;
+	display:none;
+}
+
+img{
+	display:block;
+	width:200px;
+	height:150px;
+	border-radius:40px;
+}
